@@ -7,8 +7,8 @@ for i in range (0,n) :
   print()
 
   
- """output : for 
+ """output : for n=4
     1
     22
     333
-    4444
+    4444"""
