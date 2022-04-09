@@ -5,10 +5,3 @@ for i in range (0,n) :
     print (i+1, end = "")
   k = k+1
   print()
-
-  
- """output : for n=4
-    1
-    22
-    333
-    4444"""
