@@ -1,7 +1,16 @@
 n = int(input("rows : "))
-k = 1
-for i in range (0,n) :
-  for j in range (0,k) :
-    print (i+1, end = "")
-  k = k+1
+for i in range (0,n+1) :
+  for j in range (0,i) :
+    print (i, end = " ")
   print()
+  
+  
+"""
+output :
+n = 6
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+"""
