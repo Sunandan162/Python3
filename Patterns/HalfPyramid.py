@@ -7,7 +7,7 @@ for i in range (0,n+1) :
   
 """
 output :
-n = 6
+n = 5
 1 
 2 2 
 3 3 3 
