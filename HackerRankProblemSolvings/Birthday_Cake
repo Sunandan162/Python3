@@ -1,0 +1,11 @@
+#problem - https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+
+
+n = int(input().strip())
+c = list(map(int, input().rstrip().split()))
+c.sort()
+x = 0
+for i in c:
+    if i == c[-1]:
+        x = x+1
+print(x)
