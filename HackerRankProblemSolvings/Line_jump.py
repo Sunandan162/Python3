@@ -10,9 +10,10 @@ v1 = int(first_multiple_input[1])
 x2 = int(first_multiple_input[2])
 
 v2 = int(first_multiple_input[3])
-s1=(x1+v1)
-s2=(x2+v2)
-if x2 > x1 and v2 > v1:
-    print('NO')
+if (v1 > v2):
+    if (x1 - x2) % (v2 - v1) == 0:
+        print('YES')
+    else:
+        print("NO")
 else:
-    print('YES') if s1%s2==0 or s2%s1==0 else print('NO')
+    print("NO")
