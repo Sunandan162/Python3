@@ -1,14 +1,15 @@
 #problem- https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true
 
-x1=int(input())
-v1=int(input())
-x2=int(input())
-v2=int(input())
+
+first_multiple_input = input().rstrip().split()
+
+x1 = int(first_multiple_input[0])
+
+v1 = int(first_multiple_input[1])
+
+x2 = int(first_multiple_input[2])
+
+v2 = int(first_multiple_input[3])
 s1=(x1+v1)
 s2=(x2+v2)
-if s1%s2==0:
-    print('Yes')
-elif s2%s1==0:
-    print('Yes')
-else:
-    print('No')
+print('YES') if s1%s2==0 or s2%s1==0 else print('NO')
